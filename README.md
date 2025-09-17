@@ -14,7 +14,6 @@ PlanPilot is a Streamlit-based AI app designed to simplify your life as a studen
 
 ---
 
-## Installation
 
 ### Prerequisites
 - Python 3.8+  
@@ -23,8 +22,6 @@ PlanPilot is a Streamlit-based AI app designed to simplify your life as a studen
 - langchain-groq  
 - Groq API key (set as `GROQ_API_KEY`)  
 
-### Setup
-*(instructions not provided in the text)*  
 
 ---
 
