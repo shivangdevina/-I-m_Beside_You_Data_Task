@@ -1,6 +1,6 @@
-TaskPilot – Your AI Life Organizer
-TaskPilot is a Streamlit-based AI app designed to simplify your life as a student by automating task planning and scheduling. Powered by LangChain and ChatGroq, it breaks down any task—academic, personal, or extracurricular—into manageable subtasks with priorities and schedules, saving you time and reducing the stress of organizing your busy life.
-How TaskPilot Helps You
+PlanPilot – Your AI Life Organizer
+PlanPilot is a Streamlit-based AI app designed to simplify your life as a student by automating task planning and scheduling. Powered by LangChain and ChatGroq, it breaks down any task—academic, personal, or extracurricular—into manageable subtasks with priorities and schedules, saving you time and reducing the stress of organizing your busy life.
+How PlanPilot Helps You
 
 Saves Time: Automatically splits tasks like "Plan a weekend trip" or "Finish project" into 3-5 subtasks with a schedule, so you don’t need to plan manually.
 Reduces Stress: Organizes your tasks to make your day-to-day feel manageable, whether it’s schoolwork or personal goals.
@@ -19,8 +19,8 @@ Groq API key (set as GROQ_API_KEY)
 
 Setup
 
-Clone the repo:git clone https://github.com/your-username/taskpilot.git
-cd taskpilot
+Clone the repo:git clone https://github.com/your-username/PlanPilot.git
+cd PlanPilot
 
 
 Install dependencies:pip install -r requirements.txt
@@ -35,14 +35,14 @@ Run the app:streamlit run app.py
 
 Daily Use
 
-Open TaskPilot in your browser (http://localhost:8501).
+Open PlanPilot in your browser (http://localhost:8501).
 Enter a task (e.g., "Organize a study session" or "Plan a workout routine").
 Click Plan Task to get a prioritized subtask list with a schedule.
 Click View All Tasks to see all saved tasks.
-TaskPilot remembers past inputs for consistent planning.
+PlanPilot remembers past inputs for consistent planning.
 
 Project Structure
-taskpilot/
+PlanPilot/
 ├── agent/
 │   ├── planner.py      # AI task planning logic
 │   ├── memory.py       # Conversation memory
@@ -73,6 +73,6 @@ Uses deepseek-r1-distill-llama-70b model from Groq.
 For API issues, see xAI's API docs.
 
 Contributing
-Have ideas to improve TaskPilot for students? Submit a pull request or issue!
+Have ideas to improve PlanPilot for students? Submit a pull request or issue!
 License
 MIT License
