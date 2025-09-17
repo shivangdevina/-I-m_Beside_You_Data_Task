@@ -1,3 +1,8 @@
+
+# Name-Shivang Devina
+# University - IIT Kharagpur
+# Department - Chemical Engineering
+
 # PlanPilot – Your AI Life Organizer
 
 PlanPilot is a Streamlit-based AI app designed to simplify your life as a student by automating task planning and scheduling. Powered by LangChain and ChatGroq, it breaks down any task—academic, personal, or extracurricular—into manageable subtasks with priorities and schedules, saving you time and reducing the stress of organizing your busy life. 
