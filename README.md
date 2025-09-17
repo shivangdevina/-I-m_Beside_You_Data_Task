@@ -1,4 +1,6 @@
 PlanPilot – Your AI Life Organizer
+
+
 PlanPilot is a Streamlit-based AI app designed to simplify your life as a student by automating task planning and scheduling. Powered by LangChain and ChatGroq, it breaks down any task—academic, personal, or extracurricular—into manageable subtasks with priorities and schedules, saving you time and reducing the stress of organizing your busy life.
 How PlanPilot Helps You
 
@@ -35,22 +37,12 @@ Run the app:streamlit run app.py
 
 Daily Use
 
-Open PlanPilot in your browser (http://localhost:8501).
+Open PlanPilot in your browser.
 Enter a task (e.g., "Organize a study session" or "Plan a workout routine").
 Click Plan Task to get a prioritized subtask list with a schedule.
 Click View All Tasks to see all saved tasks.
 PlanPilot remembers past inputs for consistent planning.
 
-Project Structure
-PlanPilot/
-├── agent/
-│   ├── planner.py      # AI task planning logic
-│   ├── memory.py       # Conversation memory
-│   ├── tools.py        # Task saving/loading
-├── app.py             # Streamlit interface
-├── requirements.txt   # Dependencies
-├── data/              # Stores tasks.json
-└── README.md          # This guide
 
 Future Scope
 
